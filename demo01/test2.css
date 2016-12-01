@@ -1,0 +1,19 @@
+th{
+    background-color: #336699;
+    font-size: 20px;
+    color: azure;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr:nth-child(odd)
+{
+    background-color: bisque;
+}
+tr:nth-child(even)
+{
+    background-color: aquamarine;
+}
