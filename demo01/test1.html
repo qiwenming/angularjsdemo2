@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../angular.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="xmController">
+    {{name}}<br>
+    <label ng-bind="age" ></label>岁
+</div>
+
+<script>
+ angular.module('myApp',[])
+     .controller('xmController',function ($scope) {
+         $scope.name = 'xiaoming';
+         $scope.age = 19;
+ });
+</script>
+
+</body>
+</html>
